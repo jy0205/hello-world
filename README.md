@@ -105,9 +105,9 @@
 
 | 模型     | F1 |
 |:-------------|:-----:|
-| BERT+GCN+CRF   | **80.32** |
-| -GCN module | 78.91 |
-| -Tag embedding module | 79.87 |
+| BERT+GCN+CRF   | **80.38** |
+| -GCN module | 78.95 |
+| -Tag embedding module | 79.86 |
 
 | 实体     | bilstm+crf | bert-base | roberta-wwm-large-ext | Human Performance |
 |:-------------:|:-----:|:-----:|:-----:|:-----:|
