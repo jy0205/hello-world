@@ -17,12 +17,19 @@ CLUENER 细粒度命名实体识别.
 ## Code Structure
 
 main.py: The run file of the whole project
+
 net_utils.py: The train,validate,test function and other untils.
+
 data_loader.py: Used for constructing dataset and prepare BERT output.
+
 cal_f1.py: The function to calculate F1-score.
+
 pos_tag.py: Generating the part of speech tag.
-crf.py: The CRF model
+
+crf.py: The CRF model definition.
+
 transfer.py: Transfer the BIO Data to Json data.
+
 evaluate.py: Output the final F1 score in Testset
 
 ### Our trained model
@@ -80,8 +87,9 @@ Training Set|Validation set|Test set
 (We use the above split to cross-validate and find the optimal hyper parameter. Then we merge the train and
 valiadation set to train the final model by leveraging the observed optimal settings.)
 
-The train log is on logs/train_log.txt
-The test log is on logs/test_log.txt
+**The train log is on logs/train_log.txt**
+
+**The test log is on logs/test_log.txt**
 
 ### Comparison results
 
